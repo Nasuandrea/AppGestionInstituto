@@ -1,2 +1,4 @@
-package edu.gorillas;public class Validar {
+package edu.gorillas;
+
+public class Validar {
 }

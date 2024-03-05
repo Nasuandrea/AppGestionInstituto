@@ -54,7 +54,8 @@ public class Alumno extends Miembro{
             LocalDate hoy = LocalDate.now();
 
             if (fechaIncorporacionDate.plusYears(2).isBefore(hoy)) {
-                importeMatricula *= 0.9; // Reducción del 10%
+                importeMatricula*= 0.9; // Reducción del 10%
+                setImporteMatricula(importeMatricula);
                 System.out.println("La matrícula de " + getNombre() + " ha sido reducida en un 10%");
             } else {
                 System.out.println("No se aplicó bonificación a la matrícula de " + getNombre());
