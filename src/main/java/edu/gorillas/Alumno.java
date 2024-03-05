@@ -14,6 +14,7 @@ public class Alumno extends Miembro{
         this.cicloActual = cicloActual;
         this.mediaNotas = mediaNotas;
         this.importeMatricula = importeMatricula;
+
     }
     public Alumno(){
         super();

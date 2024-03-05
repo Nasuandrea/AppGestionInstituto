@@ -13,6 +13,7 @@ private Especialidad especialidad;
         this.tipoJornada = tipoJornada;
         this.sueldo = sueldo;
         this.especialidad = especialidad;
+
     }
     public Profesor(){
         super();
@@ -60,4 +61,4 @@ private Especialidad especialidad;
         }
     }
 }
-}
+
